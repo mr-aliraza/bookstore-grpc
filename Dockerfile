@@ -1,4 +1,3 @@
- 
 # The Google Cloud Platform Python runtime is based on Debian Jessie
 # You can read more about the runtime at:
 #   https://github.com/GoogleCloudPlatform/python-runtime
@@ -17,7 +16,5 @@ ADD . /bookstore/
 
 WORKDIR /bookstore
 RUN pip install -r requirements.txt
-
-EXPOSE 8000
 
 ENTRYPOINT ["python", "/bookstore/bookstore_server.py"]
