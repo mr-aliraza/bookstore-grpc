@@ -23,8 +23,8 @@ from google.protobuf import struct_pb2
 import grpc
 
 import bookstore
-import bookstore_pb2
-import bookstore_pb2_grpc
+import http_bookstore_pb2 as bookstore_pb2
+import http_bookstore_pb2_grpc as bookstore_pb2_grpc
 import status
 
 
